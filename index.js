@@ -82,11 +82,11 @@ const runComparison = () => {
         if(leftSideValue < rightSideValue){
             leftStat.classList.remove('is-primary');
             leftStat.classList.add('is-danger');
-            console.log('first conditon', rightSideValue ,' is greater than ', leftSideValue);
+            
         }else if(leftSideValue > rightSideValue){
             rightStat.classList.remove('is-primary');
             rightStat.classList.add('is-danger');
-            console.log('second conditon', leftSideValue ,' is greater than ', rightSideValue);
+            
         }
     })
 };
