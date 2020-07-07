@@ -39,7 +39,7 @@ const createAutoComplete = ({
             option.addEventListener('click',() => {
                 dropdown.classList.remove('is-active');
                 input.value = inputValue(item);
-                onOptionSelect(item.imdbID);
+                onOptionSelect(item);
             })
 
             resultDropdown.appendChild(option);
